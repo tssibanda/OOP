@@ -15,5 +15,5 @@ while binNum !=0:
     if usrBinNum[binNum] != 0:
         binNum = binNum - 1
         bits = bits ** power
-
+#
 
