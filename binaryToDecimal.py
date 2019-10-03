@@ -9,7 +9,7 @@ tempBin = binary
 decimal = 0
 i=0
 
-while binary != 0:
+while int(binary) != 0:
     dec = int(binary) % 10
     decimal = decimal + dec * pow(2,i)
     binary = int(binary) // 10
