@@ -4,16 +4,14 @@
 # Author: Thamsanqa Steven Sibanda
 ###########################################################
 
-usrBinNum = input("Enter the binary number: ")
-binNum = len(usrBinNum)-1
-result = 0
-bits = 0
-power =
+binary = input("Enter the binary number: ")
+tempBin = binary
+decimal = 0
+i=0
 
-while binNum !=0:
-
-    if usrBinNum[binNum] != 0:
-        binNum = binNum - 1
-        bits = bits ** power
-#
-
+while binary != 0:
+    dec = int(binary) % 10
+    decimal = decimal + dec * pow(2,i)
+    binary = int(binary) // 10
+    i += 1
+print(decimal)
