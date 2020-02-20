@@ -1,1 +1,1 @@
-All Projects by Thamsanqa Sibanda DT211c Bsc Computer Science
+All Python Projects by Thamsanqa Sibanda DT211c Bsc Computer Science
